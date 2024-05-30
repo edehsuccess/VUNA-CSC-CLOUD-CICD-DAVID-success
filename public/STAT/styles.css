@@ -1,0 +1,125 @@
+/* styles.css */
+
+body {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 100px; 
+    height: auto; 
+    border-radius: 50%;
+    background-color: white;
+}
+
+header {
+    
+    background-color: #087808;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#payment {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#payment h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #087808;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #087808;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #087808;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.payment-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Shaded background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.payment-container h2 {
+    color: #fff;
+}
+
+.form-group label {
+    color: #fff; /* White text color for better readability */
+}
+
+.lasts{
+    margin-bottom: 18px;
+}
+
+footer {
+    background-color: #087808;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 2;
+    margin-top: 12px;
+    width: 100%;
+}
